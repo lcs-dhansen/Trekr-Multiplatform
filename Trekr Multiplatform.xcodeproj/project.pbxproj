@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F6D876B27985EB5004B9FDD /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876A27985EB5004B9FDD /* LocationStore.swift */; };
 		0F6D876C27985EB5004B9FDD /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876A27985EB5004B9FDD /* LocationStore.swift */; };
+		0F6D876E2798616F004B9FDD /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876D2798616F004B9FDD /* LocationsList.swift */; };
+		0F6D876F2798616F004B9FDD /* LocationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876D2798616F004B9FDD /* LocationsList.swift */; };
+		0F6D87712798691C004B9FDD /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D87702798691C004B9FDD /* WorldMap.swift */; };
+		0F6D87722798691C004B9FDD /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D87702798691C004B9FDD /* WorldMap.swift */; };
+		0F6D877427986925004B9FDD /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D877327986925004B9FDD /* TipsList.swift */; };
+		0F6D877527986925004B9FDD /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D877327986925004B9FDD /* TipsList.swift */; };
 		0FDA397727970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */; };
 		0FDA397827970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */; };
 		0FDA397B27970560001ABC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA396927970560001ABC59 /* Assets.xcassets */; };
@@ -25,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		0F6D876A27985EB5004B9FDD /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
+		0F6D876D2798616F004B9FDD /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
+		0F6D87702798691C004B9FDD /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		0F6D877327986925004B9FDD /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
 		0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trekr_MultiplatformApp.swift; sourceTree = "<group>"; };
 		0FDA396927970560001ABC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FDA396E27970560001ABC59 /* Trekr Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trekr Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				0FDA399327970B47001ABC59 /* LocationDetail.swift */,
+				0F6D876D2798616F004B9FDD /* LocationsList.swift */,
+				0F6D87702798691C004B9FDD /* WorldMap.swift */,
+				0F6D877327986925004B9FDD /* TipsList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,7 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6D876B27985EB5004B9FDD /* LocationStore.swift in Sources */,
+				0F6D87712798691C004B9FDD /* WorldMap.swift in Sources */,
 				0FDA398E279708C5001ABC59 /* Location.swift in Sources */,
+				0F6D877427986925004B9FDD /* TipsList.swift in Sources */,
+				0F6D876E2798616F004B9FDD /* LocationsList.swift in Sources */,
 				0FDA397727970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */,
 				0FDA399427970B47001ABC59 /* LocationDetail.swift in Sources */,
 			);
@@ -224,7 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6D876C27985EB5004B9FDD /* LocationStore.swift in Sources */,
+				0F6D87722798691C004B9FDD /* WorldMap.swift in Sources */,
 				0FDA398F279708C5001ABC59 /* Location.swift in Sources */,
+				0F6D877527986925004B9FDD /* TipsList.swift in Sources */,
+				0F6D876F2798616F004B9FDD /* LocationsList.swift in Sources */,
 				0FDA397827970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */,
 				0FDA399527970B47001ABC59 /* LocationDetail.swift in Sources */,
 			);
