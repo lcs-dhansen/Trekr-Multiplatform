@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6D876B27985EB5004B9FDD /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876A27985EB5004B9FDD /* LocationStore.swift */; };
+		0F6D876C27985EB5004B9FDD /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D876A27985EB5004B9FDD /* LocationStore.swift */; };
 		0FDA397727970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */; };
 		0FDA397827970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */; };
 		0FDA397B27970560001ABC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA396927970560001ABC59 /* Assets.xcassets */; };
@@ -22,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F6D876A27985EB5004B9FDD /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		0FDA39672797055E001ABC59 /* Trekr_MultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trekr_MultiplatformApp.swift; sourceTree = "<group>"; };
 		0FDA396927970560001ABC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FDA396E27970560001ABC59 /* Trekr Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trekr Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,7 @@
 				0FDA3987279707E9001ABC59 /* locations.json */,
 				0FDA3988279707E9001ABC59 /* tips.json */,
 				0FDA398D279708C5001ABC59 /* Location.swift */,
+				0F6D876A27985EB5004B9FDD /* LocationStore.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -208,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6D876B27985EB5004B9FDD /* LocationStore.swift in Sources */,
 				0FDA398E279708C5001ABC59 /* Location.swift in Sources */,
 				0FDA397727970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */,
 				0FDA399427970B47001ABC59 /* LocationDetail.swift in Sources */,
@@ -218,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6D876C27985EB5004B9FDD /* LocationStore.swift in Sources */,
 				0FDA398F279708C5001ABC59 /* Location.swift in Sources */,
 				0FDA397827970560001ABC59 /* Trekr_MultiplatformApp.swift in Sources */,
 				0FDA399527970B47001ABC59 /* LocationDetail.swift in Sources */,
