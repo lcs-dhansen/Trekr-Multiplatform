@@ -63,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FC6A6FE2799C8C50088BAED /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D876A27985EB5004B9FDD /* LocationStore.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		0FDA39612797055E001ABC59 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +115,7 @@
 				0F6D876D2798616F004B9FDD /* LocationsList.swift */,
 				0F6D87702798691C004B9FDD /* WorldMap.swift */,
 				0F6D877327986925004B9FDD /* TipsList.swift */,
+				0FC6A6FE2799C8C50088BAED /* View Model */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,7 +126,6 @@
 				0FDA3987279707E9001ABC59 /* locations.json */,
 				0FDA3988279707E9001ABC59 /* tips.json */,
 				0FDA398D279708C5001ABC59 /* Location.swift */,
-				0F6D876A27985EB5004B9FDD /* LocationStore.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
